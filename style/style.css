@@ -1,0 +1,152 @@
+@import "./fonts.css";
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.cats{
+    padding: 88px 0 53px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.row{
+    display: flex;
+    margin: 0 -15px;
+
+}
+.col-4{
+    position: relative;
+    width: 33.33333%;
+    padding: 0 15px;
+}
+.bolder{
+    display:block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.cats__info{
+    padding: 29px;
+
+}
+.cats__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.cats__desk{
+    margin: 22px 0;
+    padding-left: 22px;
+    position: relative;
+    display: flex;
+}
+/*.cats__desk:before{*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 4px;*/
+/*    height: 26px;*/
+/*    background: #6EBBD3;*/
+/*}*/
+.aside__line{
+    position: absolute;
+    height: 26px;
+    width: 4px;
+    background: #6EBBD3;
+    top: 0;
+    left: 0;
+}
+.cats__color, .cats__ages, .cats__count{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.cats__color{
+    margin-right: 18px;
+}
+.cats__ages{
+    margin-right: 46px;
+}
+.cats__price{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.cats__btn{
+    border: none;
+    width: 100%;
+    height: 65px;
+    background: #6EBBD3;
+    border-radius: 0px 0px 6px 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.cats__night{
+    background: #1F2021;
+}
+
+.cats__like{
+    position: absolute;
+    top: 37px;
+    right: 32px;
+    fill: rgba(255, 255, 255, 0.5);
+
+}
+.cats__discount{
+
+    position: absolute;
+    width: 78px;
+    height: 39px;
+    left: 37px;
+    top: 34px;
+    background: #E62D2D;
+    border-radius: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cats__like.cats__night{
+    fill: rgba(255, 255, 255, 1);
+    background: none;
+}
+.section__title{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    color: #000000;
+    text-align: center;
+    padding: 95px 0 20px;
+}
+.section__desk{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+
+}
